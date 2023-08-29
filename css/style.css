@@ -80,6 +80,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 /*section style*/
 .about{
@@ -111,4 +114,41 @@ main{
 /*skill contant*/
 .skill-cont{
     display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    background-color: aliceblue;
+    box-shadow: 0 6px 50px 0 rgb(red, green, blue);
+}
+/*resume part*/
+.resume-cont{
+    display: flex;
+    gap: 50px;
+
+}
+.resume-item-des{
+    color: blueviolet;
+    text-align: justify;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: blueviolet;
+    padding: 130px 200px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"],textarea{
+    
+
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: brown;
+    border: 0;
+    width: 100%;
 }
