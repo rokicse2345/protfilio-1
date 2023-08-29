@@ -1,0 +1,42 @@
+/*common style*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/*nav section */
+.name{
+    font-weight: 800;
+    font-size: 50px;
+    color: blueviolet;
+}
+.name-color{
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+  
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+.primary-button {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 9px 35px;
+    font-size: 18px;
+    font-weight: 800;
+    border: 0 ;
+}
